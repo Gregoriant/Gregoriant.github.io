@@ -1,0 +1,152 @@
+#C0{
+  max-width:  1750px;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+#navig{
+  background: maroon ;
+  height:  50px; 
+  padding: 10px 250px 10px 250px;
+  display: flex; 
+  
+  align-items: center;
+  justify-content: space-between;
+
+ position: sticky;
+  top: 30px;
+  left: 30px;
+  z-index:1000;
+ 
+}
+.link{
+  color:silver;
+  font-family: 'Oxygen', sans-serif;
+  text-decoration: none;
+  font-size: 32px;
+  padding: 20px 0 10px 0;
+  
+  
+}
+#C1{ /* Container1*/
+   display: flex;
+  flex-direction: row;
+  margin-top: 22px;
+ 
+   
+}
+#C2 {/* Container2*/
+  display: flex;
+  flex-direction: row;
+  
+}
+#C3 { /* Container3*/
+  display: flex;
+  flex-direction: row;
+}
+#C4 { /* Container4*/
+  display: flex;
+  flex-direction: row;
+
+  
+}
+.D1 { /* oszlop1 */
+  width: 800px; 
+}
+.D2 {  /* oszlop12 */
+ /* padding: 20px; 
+  padding-top: 40px */
+  padding: 40px 20px 20px  20px;
+}
+
+#keppoz {
+   position: relative;
+  font-family: 'Abril Fatface'; 
+  color: #222;
+ height: 400px; 
+   
+}
+img {
+  height: 400px;
+  width:  800px;
+}
+.headertext1 {
+  margin: 0;
+  position: absolute;
+  bottom: 80px;
+  left: 200px;
+  font-size: 24px;  
+  color: #8B0000;
+ }
+.headertext2 {
+  margin: 0;
+  position: absolute;
+  bottom: 30px;
+  left: 200px;
+  font-size: 48px;
+  color: #8B0000;
+ }
+
+.b {
+
+   font-family: 'Abril Fatface'; 
+  background-color:  maroon ;
+  color: white;
+  padding: 50px 100px 40px 80px;
+  font-size: 36px;
+  margin:  40px 0 0 0;
+  position: relative; 
+  width: 610px;  
+
+ 
+}
+blockquote::before {
+  content: '”';
+  /* ide jön a stílusa */
+  position: absolute;
+  top: -90px;
+  left: 0px;
+  margin: 0;
+  
+   font-size: 150px;
+   transform: rotate(180deg);
+}
+
+
+.paragr {
+  font-family: 'Courgette', cursive;
+  color: maroon;
+  line-height: 26px;
+   font-size: 20px;
+}
+.lista {
+  font-family: 'Nanum Myeongjo', serif;
+  line-height: 26px;
+   font-size: 18pxx;
+   color: maroon;
+}
+.cimsor {
+    font-family: 'Righteous', cursive;
+    line-height: 26px;
+    margin-bottom: 8px;f
+    font-style: italic; 
+    color: maroon;
+ 
+}
+h2 {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-size: 30px;
+  margin-bottom: 0px;
+  padding_bottom: 0px;
+    
+}
+h3{
+  font-size: 22px;
+  
+}
+h4 {
+ margin-top: 0px;
+ font-size: 15px;
+ padding-top: 0px;
+}
